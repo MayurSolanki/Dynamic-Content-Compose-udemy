@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 @Composable
 fun MainScreen() {
     val greetingListState = remember {
-        mutableStateListOf<String>("John", "Amanda")
+        mutableStateListOf<String>("Mayur", "Solanki")
     }
 
     Column(
@@ -38,7 +38,7 @@ fun MainScreen() {
             horizontalAlignment = Alignment.CenterHorizontally
     ) {
         GreetingList(greetingListState) {
-            greetingListState.add("Michael")
+            greetingListState.add("Arjun")
         }
     }
 }
